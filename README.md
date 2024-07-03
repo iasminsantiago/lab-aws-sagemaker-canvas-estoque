@@ -41,7 +41,7 @@ MASE = 0.832 -> como tem valor menor que 1, indica modelo com previsões mais pr
 #### PREDICTION
 Não foi possível gerar a predição devido à conta ter um limite "tranform instance", o que tambpém ocorreu quando tentei gerar predições com outros datasets no bootcamp. 
 ![image](https://github.com/iasminsantiago/lab-aws-sagemaker-canvas-estoque/assets/76630114/608793a9-5844-44ab-a729-c23c72511016)
-
+Porém, em contas que não tem limite, é possível visualziar previsões usando percentis, mostrando cenários ideais (P50), pessimistas (P10) e otimistas (P90) e exportar as previsões como CSV, que virá com as coluans ref. aos percentis também: 
 
 ------------- etapa com impedimento:
 ### 4. Prever
